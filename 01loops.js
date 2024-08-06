@@ -44,12 +44,4 @@ for (const key in student) {
     }
 
 
-let pattern = ''
-for(i=1;i<=5;i++){ // rows
-    for(j=1;j<=i;j++){ // stars
-        pattern += '*'
-    }
-    pattern += '\n' // next line
-}
-
-console.log(pattern);
+``
